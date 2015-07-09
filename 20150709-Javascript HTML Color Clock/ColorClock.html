@@ -1,0 +1,27 @@
+<html>
+<head>
+  <title>HTML Color Clock</title>
+  <script>
+  // setup timer that fires every 0.85 seconds
+  var myVar=setInterval(function () {myTimer()}, 850);
+
+  function myTimer() {
+      var t = new Date();
+      // Modify hour, min, and sec to make them inside the range 0-255
+      // This allows the color range to be more dynamic and allow for more interesting choices throughout the day
+      var hour = 10 * t.getHours();
+      var min = 4 * t.getMinutes();
+      var sec = 4 * t.getSeconds();
+      // Avoid converting to hex by using rgb() function of HTML/CSS
+      document.body.style.background = "rgb(" + hour + "," + min + "," + sec + ")";
+      document.getElementById("timer").innerHTML = t.toLocaleTimeString();
+  } 
+  </script>
+</head>
+<body id="body" style="text-align:center;margin: 0 auto">
+
+<div id="timer" style="margin:0 auto;position:absolute;top:50%;width:100%;color:white;font-size:450%;font:bold">
+</div>
+
+</body>
+</html>

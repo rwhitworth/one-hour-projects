@@ -9,4 +9,10 @@ Requirements
 * This code must be inserted into the 'FiddlerScript' tab in the function OnBeforeResponse.  And the MessageBox blocks further execution, so you must click 'OK' before the game continues.
 * The FaceBook version of Trivia Crack must be used.  Proxying traffic from your phone probably won't work.
 
+# Contents
+* fiddler.cs - The 1 hour version of the script which uses pop-ups, that block HTTP traffic, for notification.  Support for normal questions only.
+* fiddler-2hours.cs - The 2 hour version of the script which uses the 'custom' column in Fiddler to display the information.  Support for normal and crown questions.
+* fiddler-2hours.png - Example output from a test run of the script.  Changes were still being made when this screenshot was taken.  Blank lines in the custom field were removed toward the end of development.
+
 # This project is just a proof of concept.  I do not condone cheating, but I do enjoy a good puzzle.
+

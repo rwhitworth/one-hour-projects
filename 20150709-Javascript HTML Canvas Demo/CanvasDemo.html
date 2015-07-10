@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<body style="margin:0;padding:0;overflow:hidden;position;absolute;cursor:none">
+<meta charset="utf-8">
+<canvas id="can" style="position:absolute;overflow:hidden;border:1px solid #000000">
+</canvas>
+<script>
+function r(min,max)
+{
+	var result = Math.floor((Math.random() * max) + min);
+	//if (max != 255) { console.log("min: " + min + "    max: " + max + "  result: " + result); }
+	return result;
+}
+function rgb(red,green,blue)
+{
+	return "rgb(" + red + "," + green + "," + blue + ")";
+}
+function rrgb()
+{
+	return rgb(r(0,255),r(0,255),r(0,255));
+}
+
+var c = document.getElementById("can");
+var ctx = c.getContext("2d");
+c.width = window.innerWidth;
+c.height = window.innerHeight;
+var w = c.width;
+var h = c.height;
+console.log("width: " + w);
+console.log("height: " + h);
+
+
+var myVar=setInterval(function () {myTimer()}, 250);
+
+function myTimer() {
+	//ctx.clearRect(0, 0, w, h);
+	//ctx.fillStyle = "rgb(" + r(0,255) + "," + r(0,255) + "," + r(0,255) + ")";
+	ctx.fillStyle = rrgb();
+	var v1 = r(0,w);
+	var v2 = r(0,h);
+	var v3 = r(v1,w-v1);
+	var v4 = r(v2,h-v2);
+	ctx.fillRect(v1, v2, v3, v4);
+}
+
+
+var myVar2=setInterval(function () {resizedetection()}, 1250);
+
+function resizedetection() {
+	// unfortunately this clears the canvas/screen also :-(
+	console.log("resize detected!!!!");
+	if (c.width != window.innerWidth) { c.width = window.innerWidth; console.log("width change detected"); }
+	if (c.height != window.innerHeight) { c.height = window.innerHeight;; console.log("height change detected"); }
+}
+</script>
+
+</body>
+</html>

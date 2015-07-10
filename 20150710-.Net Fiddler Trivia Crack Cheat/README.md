@@ -9,4 +9,4 @@ Requirements
 * This code must be inserted into the 'FiddlerScript' tab in the function OnBeforeResponse.  And the MessageBox blocks further execution, so you must click 'OK' before the game continues.
 * The FaceBook version of Trivia Crack must be used.  Proxying traffic from your phone probably won't work.
 
-# This project is just a proof of concept.. as I don't play this game normally.
+# This project is just a proof of concept.  I do not condone cheating, but I do enjoy a good puzzle.

@@ -1,8 +1,11 @@
 # get-repos
-List Github repos for a particular user.
+List Github repos for a particular user.  Includes repo name, last update time, number of watchers, number of forks, and total number of repos for the user.
+
+Called via `get-repos.pl --username=rwhitworth`
 
 Example output:
-`Repo listing for rwhitworth
+```
+Repo listing for rwhitworth
 
 Barcodes
 Update: 2015-01-29T03:08:22Z -=- W: 0000 F: 0000
@@ -57,5 +60,6 @@ Update: 2015-06-13T20:35:54Z -=- W: 0000 F: 0000
 windows-service-template
 Update: 2015-06-02T01:21:47Z -=- W: 0000 F: 0000
 
-Total count: 26`
+Total count: 26
+```
 

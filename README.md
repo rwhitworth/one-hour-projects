@@ -6,7 +6,8 @@ Projects in this repo were started and "finished" in one hour.  At the end of th
 I plan to use technologies I am unfamiliar with for these mini projects.  Languages I don't know, libraries/toolkits I haven't used, and design patterns, concepts, etc that are foreign to me.  This is about learning not about usefulness.
 
 # "Completed" Projects
-* 2015-07-09 - <a href="https://rwhitworth.github.io/ColorClock.html">Color Clock</a>.  A lunchtime project.
-* 2015-07-09 - <a href="https://rwhitworth.github.io/CanvasDemo.html">Canvas Demo</a>, aka, Random Colored Squares
+* 2015-07-09 - <a href="https://rwhitworth.github.io/one-hour-projects/ColorClock.html">Color Clock</a>.  A lunchtime project.
+* 2015-07-09 - <a href="https://rwhitworth.github.io/one-hour-projects/CanvasDemo.html">Canvas Demo</a>, aka, Random Colored Squares
 * 2015-07-10 - Trivia Crack Cheat demo.  Requires Fiddler and FaceBook's version of Trivia Crack.  A lunchtime project.
 * 2015-07-10 - get-repos.pl, a script to list the repositories for a user.
+* 2015-07-11 - <a href="https://rwhitworth.github.io/one-hour-projects/charts.html">c3/d3 charts</a>.  A 'baby is sleeping' project of less than one hour.

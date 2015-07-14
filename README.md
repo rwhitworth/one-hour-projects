@@ -12,6 +12,13 @@ I plan to use technologies I am unfamiliar with for these mini projects.  Langua
 * 2015-07-10 - get-repos.pl, a script to list the repositories for a user.
 * 2015-07-11 - <a href="https://rwhitworth.github.io/one-hour-projects/charts.html">c3/d3 charts</a>.  A 'baby is sleeping' project of less than one hour.
 
+# "Completed" Non-Projects
+Work done for other projects that I want to track.
+* 2014-04-07 - <a href="https://github.com/tokuhirom/Test-SharedFork/pull/12">Test::SharedFork</a> perl module fixes for installing in Cygwin environment.
+* 2015-05-29 - <a href="https://github.com/illusori/bash-tap/pull/4">bash-tap</a>, bash script to add TAP functional testing to bash scripts.  Created tests for the bash-tap script (note the irony of a testing library without tests).  Implimented bail_out(), note(), and skip() functions.
+* 2015-07-06 - <a href="https://github.com/alexoslabs/HTTPSScan/pull/1">HTTPSScan</a>, bash script to test for HTTPS vulnerabilities on local server.  Added function to test for online host before running, removed 2 false positive tests, and updated for Cygwin environment.
+* 2015-07-12 - <a href="https://github.com/dagolden/Capture-Tiny/pull/35">Capture::Tiny</a> perl module fixes for installing in Cygwin environment.
+
 # Future project ideas
 * php detect similar JPEG images
 * autoit automate Windows software

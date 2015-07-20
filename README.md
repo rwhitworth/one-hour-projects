@@ -27,5 +27,5 @@ Work done for other projects that I want to track.
 * autoit automate Windows software
 * powershell to use .net classes to encrypt/decrypt, or compress, or maybe an md5sum for Windows
 * C handle command-line options (no cheating with getopt or whatnot)
-* C# screensaver, starting with teh time-server codebase
+* C# screensaver, starting with the time-server codebase
 * C# charting, using Microsoft's solution perhaps?

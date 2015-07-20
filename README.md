@@ -11,6 +11,7 @@ I plan to use technologies I am unfamiliar with for these mini projects.  Langua
 * 2015-07-10 - Trivia Crack Cheat demo.  Requires Fiddler and FaceBook's version of Trivia Crack.  A lunchtime project.
 * 2015-07-10 - get-repos.pl, a script to list the repositories for a user.
 * 2015-07-11 - <a href="https://rwhitworth.github.io/one-hour-projects/charts.html">c3/d3 charts</a>.  A 'baby is sleeping' project of less than one hour.
+* 2015-07-19 - Bowling Scores, a C program to calculate a score in 10 pin bowling
 
 # "Completed" Non-Projects
 Work done for other projects that I want to track.
@@ -24,7 +25,6 @@ Work done for other projects that I want to track.
 * php detect similar JPEG images
 * autoit automate Windows software
 * powershell to use .net classes to encrypt/decrypt, or compress, or maybe an md5sum for Windows
-* C to read bowling scores (per frame) from a text file and compute final score
 * C handle command-line options (no cheating with getopt or whatnot)
 * C# screensaver, starting with teh time-server codebase
 * C# charting, using Microsoft's solution perhaps?

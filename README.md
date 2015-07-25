@@ -21,6 +21,7 @@ Work done for other projects that I want to track.
 * 2015-07-06 - <a href="https://github.com/alexoslabs/HTTPSScan/pull/1">HTTPSScan</a>, bash script to test for HTTPS vulnerabilities on local server.  Added function to test for online host before running, removed 2 false positive tests, and updated for Cygwin environment.
 * 2015-07-12 - <a href="https://github.com/dagolden/Capture-Tiny/pull/35">Capture::Tiny</a> perl module fixes for installing in Cygwin environment.
 * 2015-07-14 - <a href="https://github.com/gisle/encode-locale/pull/17">Encode::Locale</a> perl module fixes for installing in a Cygwin environment.
+* 2015-07-23 - <a href="https://github.com/rwhitworth/www-shorten-qurl/commit/433942e1be6907456a126e0aa491186fb10cc112">WWW::Shorten::Qurl</a> perl module fixes for new API format required for Qurl.  Also identified the Qurl service as no longer functional, and opened an <a href="https://github.com/davorg/www-shorten-qurl/issues/1">issue</a> with upstream module author to advise of the situation.  Fixes to local github repo not pushed upstream.
 
 # Future project ideas
 * php detect similar JPEG images

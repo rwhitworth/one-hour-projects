@@ -14,6 +14,7 @@ I plan to use technologies I am unfamiliar with for these mini projects.  Langua
 * 2015-07-19 - Bowling Scores, a C program to calculate a score in 10 pin bowling.
 * 2015-07-20 - Support for long options with getopt, in bash.
 * 2015-07-26 - Commandline handling in C, sans getopt.
+* 2015-07-29 - RLE encode of A-Za-z strings.  Decoder partially working. In C.
 
 # "Completed" Non-Projects
 Work done for other projects that I want to track.

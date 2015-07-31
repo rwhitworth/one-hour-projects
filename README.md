@@ -15,6 +15,7 @@ I plan to use technologies I am unfamiliar with for these mini projects.  Langua
 * 2015-07-20 - Support for long options with getopt, in bash.
 * 2015-07-26 - Commandline handling in C, sans getopt.
 * 2015-07-29 - RLE encode of A-Za-z strings.  Decoder partially working. In C.
+* 2015-07-30 - Find reddit.com posts in a subreddit (or the 'all' subreddit) that don't contain any punctuation.  Inspired by <a href="https://www.reddit.com/r/programming/comments/3en2px/til_you_can_use_function_overloading_in_c/ctgz3zc?context=3">this post</a>.
 
 # "Completed" Non-Projects
 Work done for other projects that I want to track.

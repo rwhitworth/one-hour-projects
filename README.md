@@ -18,13 +18,14 @@ I plan to use technologies I am unfamiliar with for these mini projects.  Langua
 * 2015-07-30 - Find reddit.com posts in a subreddit (or the 'all' subreddit) that don't contain any punctuation.  Inspired by <a href="https://www.reddit.com/r/programming/comments/3en2px/til_you_can_use_function_overloading_in_c/ctgz3zc?context=3">this post</a>.
 
 # "Completed" Non-Projects
-Work done for other projects that I want to track.
+Work toward other open source projects.  This sort of work typically took around an hour to complete.
 * 2014-04-07 - <a href="https://github.com/tokuhirom/Test-SharedFork/pull/12">Test::SharedFork</a> perl module fixes for installing in Cygwin environment.
 * 2015-05-29 - <a href="https://github.com/illusori/bash-tap/pull/4">bash-tap</a>, bash script to add TAP functional testing to bash scripts.  Created tests for the bash-tap script (note the irony of a testing library without tests).  Implemented bail_out(), note(), and skip() functions.
 * 2015-07-06 - <a href="https://github.com/alexoslabs/HTTPSScan/pull/1">HTTPSScan</a>, bash script to test for HTTPS vulnerabilities on local server.  Added function to test for online host before running, removed 2 false positive tests, and updated for Cygwin environment.
 * 2015-07-12 - <a href="https://github.com/dagolden/Capture-Tiny/pull/35">Capture::Tiny</a> perl module fixes for installing in Cygwin environment.
 * 2015-07-14 - <a href="https://github.com/gisle/encode-locale/pull/17">Encode::Locale</a> perl module fixes for installing in a Cygwin environment.
 * 2015-07-23 - <a href="https://github.com/rwhitworth/www-shorten-qurl/commit/433942e1be6907456a126e0aa491186fb10cc112">WWW::Shorten::Qurl</a> perl module fixes for new API format required for Qurl.  Also identified the Qurl service as no longer functional, and opened an <a href="https://github.com/davorg/www-shorten-qurl/issues/1">issue</a> with upstream module author to advise of the situation.  Fixes to local github repo not pushed upstream.
+* 2015-08-01 - <a href="https://github.com/nothings/stb/pull/156">STB library</a> license text needed updated, so a pull request was made.  This pull request was sent as a fix to <a href="https://github.com/nothings/stb/issues/155">issue 155</a> opened by the library author.
 
 # Future project ideas
 * php detect similar JPEG images

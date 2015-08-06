@@ -12,4 +12,6 @@ The DLL exposes the following functions:
 
 The C# code handles marshalling for the char* array for filename to expose a string.  It also handles configuring the calling convention of cdecl that is required.
 
-All code in the C DLL and C# console application is licensed to the public domain, in the same manor as the STB library that is included.
+All code in the C DLL and C# console application is licensed to the public domain, in the same manor as the STB library that is used.
+
+STB must be retrieved from https://raw.githubusercontent.com/nothings/stb/master/stb.h

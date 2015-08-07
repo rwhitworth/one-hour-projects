@@ -28,6 +28,7 @@ Work toward other open source projects.  This sort of work typically took around
 * 2015-07-23 - <a href="https://github.com/rwhitworth/www-shorten-qurl/commit/433942e1be6907456a126e0aa491186fb10cc112">WWW::Shorten::Qurl</a> perl module fixes for new API format required for Qurl.  Also identified the Qurl service as no longer functional, and opened an <a href="https://github.com/davorg/www-shorten-qurl/issues/1">issue</a> with upstream module author to advise of the situation.  Fixes to local github repo not pushed upstream.
 * 2015-08-01 - <a href="https://github.com/nothings/stb/pull/156">STB library</a> license text needed updated, so a pull request was made.  This pull request was sent as a fix to <a href="https://github.com/nothings/stb/issues/155">issue 155</a> opened by the library author.
 * 2015-08-04 - <a href="https://github.com/nothings/stb/pull/158">STB library</a> wouldn't compile under Visual Studio 2015.  This pull request adds required #include and #define statements.
+* 2015-08-06 - Cleaned up existing code for solving a few <a href="https://projecteuler.net">Project Euler</a> problems.  Written in perl and hosted in my <a href="https://github.com/rwhitworth/project-euler">project-euler</a> github repo.  Verified all entries are working and run in a few seconds or less.
 
 # Future project ideas
 * php detect similar JPEG images

@@ -2,7 +2,7 @@
 
 This project includes:
 * DLL written in C (using <a href="https://github.com/nothings/stb">STB</a> library as the basis).
-* Win32 console application that calls the DLL
+* .Net C# console application that calls the DLL
 
 The DLL exposes the following functions:
 * void DisplayHelloFromDLL()

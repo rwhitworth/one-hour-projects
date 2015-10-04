@@ -31,6 +31,7 @@ Work toward other open source projects.  This sort of work typically took around
 * 2015-08-06 - Cleaned up existing code for solving a few <a href="https://projecteuler.net">Project Euler</a> problems.  Written in perl and hosted in my <a href="https://github.com/rwhitworth/project-euler">project-euler</a> github repo.  Verified all entries are working and run in a few seconds or less.
 * 2015-08-14 - Created builds of the latest <a href="https://github.com/wbhart/mpir">MPIR</a> library with Visual Studio 2015.  Opened a <a href="https://github.com/Legrandin/mpir-windows-builds/pull/1">pull request</a> to make the binaries available upstream.  Also added source code to github repository to keep up with licensing requirements.
 * 2015-08-14 - Updated <a href="https://github.com/bmatzelle/nini">Nini</a> library to compile in .Net 4.6 (in Visual Studio 2015).  <a href="https://github.com/bmatzelle/nini/pull/7">Pull request</a> to send changes upstream.
+* 2015-10-04 - Added tests for <a href="https://github.com/makamaka/Text-CSV/pull/28">Text::CSV</a> to cover the is_missing() function.  The function does not currently work as designed but was unoticed due to a lack of tests.
 
 # Future project ideas
 * php detect similar JPEG images

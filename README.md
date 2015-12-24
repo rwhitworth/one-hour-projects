@@ -17,6 +17,7 @@ I plan to use technologies I am unfamiliar with for these mini projects.  Langua
 * 2015-07-29 - RLE encode of A-Za-z strings.  Decoder partially working. In C.
 * 2015-07-30 - Find reddit.com posts in a subreddit (or the 'all' subreddit) that don't contain any punctuation.  Inspired by <a href="https://www.reddit.com/r/programming/comments/3en2px/til_you_can_use_function_overloading_in_c/ctgz3zc?context=3">this post</a>.
 * 2015-08-03 - C DLL used in a C# program.  A test of C# interop and C DLL building.  Uses the <a href="https://github.com/nothings/stb">STB</a> library for the few functions the DLL exposes.
+* 2015-12-23 - Outdoor burn day detection and email, in bash.
 
 # "Completed" Non-Projects
 Work toward other open source projects.  This sort of work typically took around an hour to complete.
@@ -33,6 +34,7 @@ Work toward other open source projects.  This sort of work typically took around
 * 2015-08-14 - Updated <a href="https://github.com/bmatzelle/nini">Nini</a> library to compile in .Net 4.6 (in Visual Studio 2015).  <a href="https://github.com/bmatzelle/nini/pull/7">Pull request</a> to send changes upstream.
 * 2015-10-04 - Added tests for <a href="https://github.com/makamaka/Text-CSV/pull/28">Text::CSV</a> to cover the is_missing() function.  The function does not currently work as designed but was unoticed due to a lack of tests.
 * 2015-10-04 - Added tests for <a href="https://github.com/libwww-perl/http-message/pull/26">HTTP::Message</a> to improve code coverage.  Also resolves a bug with how data is encoded and helps catch errors.
+* 2015-12-21 - Updated <a href="https://github.com/kellabyte/pathfinder/pull/2">Pathfinder build process</a> for the Cygwin environment and verified tests on a new platform.
 
 # Future project ideas
 * php detect similar JPEG images

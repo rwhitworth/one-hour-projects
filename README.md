@@ -14,7 +14,7 @@ I plan to use technologies I am unfamiliar with for these mini projects.  Langua
 * 2015-07-19 - Bowling Scores, a C program to calculate a score in 10 pin bowling.
 * 2015-07-20 - Support for long options with getopt, in bash.
 * 2015-07-26 - Commandline handling in C, sans getopt.
-* 2015-07-29 - RLE encode of A-Za-z strings.  Decoder partially working. In C.
+* 2015-07-29 - RLE encode of A-Za-z strings.  Decoder partially working. In C.  Code updated later to include decoding and converted to a library, available <a href="https://github.com/rwhitworth/code-samples/tree/master/c/rle">here</a>.
 * 2015-07-30 - Find reddit.com posts in a subreddit (or the 'all' subreddit) that don't contain any punctuation.  Inspired by <a href="https://www.reddit.com/r/programming/comments/3en2px/til_you_can_use_function_overloading_in_c/ctgz3zc?context=3">this post</a>.
 * 2015-08-03 - C DLL used in a C# program.  A test of C# interop and C DLL building.  Uses the <a href="https://github.com/nothings/stb">STB</a> library for the few functions the DLL exposes.
 * 2015-12-23 - Outdoor burn day detection and email, in bash.

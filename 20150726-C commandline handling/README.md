@@ -7,7 +7,7 @@ Working items:
 * Hopefully a lack of memory allocation errors
 
 Known issues:
-* When zero options are passed to the program is 'finds' the binary itself and believes the filename was passed properly
+* When zero options are passed to the program it 'finds' the binary itself and believes the filename was passed properly
 * strtok inside strtok doesn't work (likely due to volatile?) and trying to determine if a single parameter was passed and assigning a variable to the value passed.. doesn't work.
 * single dashes and multi dashes are treated equally.  This may be a non-issue for some applications.
 

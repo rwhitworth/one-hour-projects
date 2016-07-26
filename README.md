@@ -35,6 +35,7 @@ Work toward other open source projects.  This sort of work typically took around
 * 2015-10-04 - Added tests for <a href="https://github.com/makamaka/Text-CSV/pull/28">Text::CSV</a> to cover the is_missing() function.  The function does not currently work as designed but was unoticed due to a lack of tests.
 * 2015-10-04 - Added tests for <a href="https://github.com/libwww-perl/http-message/pull/26">HTTP::Message</a> to improve code coverage.  Also resolves a bug with how data is encoded and helps catch errors.
 * 2015-12-21 - Updated <a href="https://github.com/kellabyte/pathfinder/pull/2">Pathfinder build process</a> for the Cygwin environment and verified tests on a new platform.
+* 2016-07-25 - Updated README.md for <a href="https://github.com/nemoNoboru/monkey_type/pull/1">monkey_type</a> Ruby gem to include better 'getting started' steps for new users
 
 # Future project ideas
 * php detect similar JPEG images
